@@ -1,11 +1,14 @@
-
+* {
+    background-color: rgb(253, 245, 231);
+}
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Didot' serif;
     text-align: center;
     background-color: rgb(230, 184, 57);
 
 }
-.chef {
+.chef,
+.food {
     width: 720px;
     height: 360px;
     display: block;
@@ -13,8 +16,38 @@ h1 {
     margin-right: auto;
 
 }
+
+h4 {
+    border: 5px double rgb(230, 184, 57);
+    color: rgb(194, 29, 0);
+    width: 20%;
+    margin-left: 10%;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+
+.quick{
+    text-align: center;
+    font-family: 'Didot' serif;
+}
+.description,
+.ingredients,
+.instructions {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
 .links {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+}
+.header {
+    border: 5px groove black;
+    color: rgb(192, 70, 49);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
